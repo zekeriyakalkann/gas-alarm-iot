@@ -29,3 +29,10 @@ and cloud-based alerts when dangerous thresholds are exceeded.
 ## 🚧 Current Status
 - Core gas detection implemented
 - LCD and temperature/humidity integration in progress
+
+## 📄 Documentation
+See `/docs/architecture.md` for system design details.
+
+## 🎥 Media
+Project photos and demo video link are available under `/media`.
+
