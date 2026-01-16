@@ -33,6 +33,24 @@ and cloud-based alerts when dangerous thresholds are exceeded.
 ## 📄 Documentation
 See `/docs/architecture.md` for system design details.
 
-## 🎥 Media
-Project photos and demo video link are available under `/media`.
+## ▶️ Setup & Run
+
+### Arduino (UNO)
+1. Install required libraries in Arduino IDE:
+   - DHT sensor library
+   - LiquidCrystal_I2C
+2. Open `arduino/main.ino`
+3. Select the correct board and port, then upload.
+
+### ESP8266
+1. Install ESP8266 board support in Arduino IDE (Boards Manager).
+2. Open `esp8266/esp8266_main.ino`
+3. Create your local secrets file:
+   - Keep keys private and add them during activation/deployment.
+4. Select the correct ESP8266 board and port, then upload.
+
+### Demo
+- Photos and demo link: see `/media`
+- Architecture details: see `/docs/architecture.md`
+
 
